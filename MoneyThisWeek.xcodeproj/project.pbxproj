@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD30DE731BAB65370056651B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30DE721BAB65370056651B /* Assets.xcassets */; };
+		AD3921941BABFFAE00ADECC5 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD3921931BABFFAE00ADECC5 /* FontAwesome.otf */; };
+		AD3921951BABFFCC00ADECC5 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD3921931BABFFAE00ADECC5 /* FontAwesome.otf */; };
+		ADBF121D1BAB5F1900CD222C /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF121C1BAB5F1900CD222C /* ThirdTableViewController.m */; };
+		ADE09F4B1BAA53BA0000D45A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE09F4A1BAA53BA0000D45A /* main.m */; };
+		ADE09F4E1BAA53BA0000D45A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE09F4D1BAA53BA0000D45A /* AppDelegate.m */; };
+		ADE09F511BAA53BA0000D45A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE09F501BAA53BA0000D45A /* FirstViewController.m */; };
+		ADE09F541BAA53BA0000D45A /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE09F531BAA53BA0000D45A /* SecondTableViewController.m */; };
+		ADE09F571BAA53BA0000D45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE09F551BAA53BA0000D45A /* Main.storyboard */; };
+		ADE09F5C1BAA53BA0000D45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE09F5A1BAA53BA0000D45A /* LaunchScreen.storyboard */; };
+		ADE09F6A1BAA5F710000D45A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE09F691BAA5F710000D45A /* NotificationCenter.framework */; };
+		ADE09F6E1BAA5F710000D45A /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE09F6D1BAA5F710000D45A /* TodayViewController.m */; };
+		ADE09F711BAA5F710000D45A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE09F6F1BAA5F710000D45A /* MainInterface.storyboard */; };
+		ADE09F751BAA5F710000D45A /* MoneyThisWeek Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ADE09F671BAA5F710000D45A /* MoneyThisWeek Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE09F731BAA5F710000D45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE09F3E1BAA53BA0000D45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE09F661BAA5F710000D45A;
+			remoteInfo = "MoneyThisWeek Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADE09F791BAA5F710000D45A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ADE09F751BAA5F710000D45A /* MoneyThisWeek Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD30DE721BAB65370056651B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3921931BABFFAE00ADECC5 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		ADA0CAAC1BB47B96003196D9 /* MoneyThisWeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MoneyThisWeek.entitlements; sourceTree = "<group>"; };
+		ADA0CAAD1BB47BC8003196D9 /* MoneyThisWeek Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MoneyThisWeek Widget.entitlements"; sourceTree = "<group>"; };
+		ADBF121B1BAB5F1900CD222C /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		ADBF121C1BAB5F1900CD222C /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		ADE09F461BAA53BA0000D45A /* MoneyThisWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyThisWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE09F4A1BAA53BA0000D45A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADE09F4C1BAA53BA0000D45A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADE09F4D1BAA53BA0000D45A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADE09F4F1BAA53BA0000D45A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		ADE09F501BAA53BA0000D45A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ADE09F521BAA53BA0000D45A /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		ADE09F531BAA53BA0000D45A /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		ADE09F561BAA53BA0000D45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADE09F5B1BAA53BA0000D45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADE09F5D1BAA53BA0000D45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE09F671BAA5F710000D45A /* MoneyThisWeek Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MoneyThisWeek Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE09F691BAA5F710000D45A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		ADE09F6C1BAA5F710000D45A /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		ADE09F6D1BAA5F710000D45A /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		ADE09F701BAA5F710000D45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		ADE09F721BAA5F710000D45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE09F431BAA53BA0000D45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE09F641BAA5F710000D45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE09F6A1BAA5F710000D45A /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADE09F3D1BAA53BA0000D45A = {
+			isa = PBXGroup;
+			children = (
+				ADE09F481BAA53BA0000D45A /* MoneyThisWeek */,
+				ADE09F6B1BAA5F710000D45A /* MoneyThisWeek Widget */,
+				ADE09F681BAA5F710000D45A /* Frameworks */,
+				ADE09F471BAA53BA0000D45A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE09F471BAA53BA0000D45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE09F461BAA53BA0000D45A /* MoneyThisWeek.app */,
+				ADE09F671BAA5F710000D45A /* MoneyThisWeek Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE09F481BAA53BA0000D45A /* MoneyThisWeek */ = {
+			isa = PBXGroup;
+			children = (
+				ADA0CAAC1BB47B96003196D9 /* MoneyThisWeek.entitlements */,
+				ADE09F4C1BAA53BA0000D45A /* AppDelegate.h */,
+				ADE09F4D1BAA53BA0000D45A /* AppDelegate.m */,
+				ADE09F4F1BAA53BA0000D45A /* FirstViewController.h */,
+				ADE09F501BAA53BA0000D45A /* FirstViewController.m */,
+				ADE09F521BAA53BA0000D45A /* SecondTableViewController.h */,
+				ADE09F531BAA53BA0000D45A /* SecondTableViewController.m */,
+				ADBF121B1BAB5F1900CD222C /* ThirdTableViewController.h */,
+				ADBF121C1BAB5F1900CD222C /* ThirdTableViewController.m */,
+				ADE09F551BAA53BA0000D45A /* Main.storyboard */,
+				ADE09F5A1BAA53BA0000D45A /* LaunchScreen.storyboard */,
+				AD30DE721BAB65370056651B /* Assets.xcassets */,
+				AD3921931BABFFAE00ADECC5 /* FontAwesome.otf */,
+				ADE09F5D1BAA53BA0000D45A /* Info.plist */,
+				ADE09F491BAA53BA0000D45A /* Supporting Files */,
+			);
+			path = MoneyThisWeek;
+			sourceTree = "<group>";
+		};
+		ADE09F491BAA53BA0000D45A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADE09F4A1BAA53BA0000D45A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADE09F681BAA5F710000D45A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADE09F691BAA5F710000D45A /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADE09F6B1BAA5F710000D45A /* MoneyThisWeek Widget */ = {
+			isa = PBXGroup;
+			children = (
+				ADA0CAAD1BB47BC8003196D9 /* MoneyThisWeek Widget.entitlements */,
+				ADE09F6C1BAA5F710000D45A /* TodayViewController.h */,
+				ADE09F6D1BAA5F710000D45A /* TodayViewController.m */,
+				ADE09F6F1BAA5F710000D45A /* MainInterface.storyboard */,
+				ADE09F721BAA5F710000D45A /* Info.plist */,
+			);
+			path = "MoneyThisWeek Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE09F451BAA53BA0000D45A /* MoneyThisWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE09F601BAA53BA0000D45A /* Build configuration list for PBXNativeTarget "MoneyThisWeek" */;
+			buildPhases = (
+				ADE09F421BAA53BA0000D45A /* Sources */,
+				ADE09F431BAA53BA0000D45A /* Frameworks */,
+				ADE09F441BAA53BA0000D45A /* Resources */,
+				ADE09F791BAA5F710000D45A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE09F741BAA5F710000D45A /* PBXTargetDependency */,
+			);
+			name = MoneyThisWeek;
+			productName = MoneyThisWeek;
+			productReference = ADE09F461BAA53BA0000D45A /* MoneyThisWeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE09F661BAA5F710000D45A /* MoneyThisWeek Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE09F761BAA5F710000D45A /* Build configuration list for PBXNativeTarget "MoneyThisWeek Widget" */;
+			buildPhases = (
+				ADE09F631BAA5F710000D45A /* Sources */,
+				ADE09F641BAA5F710000D45A /* Frameworks */,
+				ADE09F651BAA5F710000D45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoneyThisWeek Widget";
+			productName = "MoneyThisWeek Widget";
+			productReference = ADE09F671BAA5F710000D45A /* MoneyThisWeek Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE09F3E1BAA53BA0000D45A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Matthew Kotila";
+				TargetAttributes = {
+					ADE09F451BAA53BA0000D45A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = CT46PQ7AS7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					ADE09F661BAA5F710000D45A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = CT46PQ7AS7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ADE09F411BAA53BA0000D45A /* Build configuration list for PBXProject "MoneyThisWeek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADE09F3D1BAA53BA0000D45A;
+			productRefGroup = ADE09F471BAA53BA0000D45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE09F451BAA53BA0000D45A /* MoneyThisWeek */,
+				ADE09F661BAA5F710000D45A /* MoneyThisWeek Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE09F441BAA53BA0000D45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE09F5C1BAA53BA0000D45A /* LaunchScreen.storyboard in Resources */,
+				AD30DE731BAB65370056651B /* Assets.xcassets in Resources */,
+				AD3921941BABFFAE00ADECC5 /* FontAwesome.otf in Resources */,
+				ADE09F571BAA53BA0000D45A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE09F651BAA5F710000D45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE09F711BAA5F710000D45A /* MainInterface.storyboard in Resources */,
+				AD3921951BABFFCC00ADECC5 /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE09F421BAA53BA0000D45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE09F541BAA53BA0000D45A /* SecondTableViewController.m in Sources */,
+				ADBF121D1BAB5F1900CD222C /* ThirdTableViewController.m in Sources */,
+				ADE09F4E1BAA53BA0000D45A /* AppDelegate.m in Sources */,
+				ADE09F511BAA53BA0000D45A /* FirstViewController.m in Sources */,
+				ADE09F4B1BAA53BA0000D45A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE09F631BAA5F710000D45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE09F6E1BAA5F710000D45A /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE09F741BAA5F710000D45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE09F661BAA5F710000D45A /* MoneyThisWeek Widget */;
+			targetProxy = ADE09F731BAA5F710000D45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADE09F551BAA53BA0000D45A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE09F561BAA53BA0000D45A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADE09F5A1BAA53BA0000D45A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE09F5B1BAA53BA0000D45A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ADE09F6F1BAA5F710000D45A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE09F701BAA5F710000D45A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADE09F5E1BAA53BA0000D45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADE09F5F1BAA53BA0000D45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE09F611BAA53BA0000D45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoneyThisWeek/MoneyThisWeek.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MoneyThisWeek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewkotila.MoneyThisWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ADE09F621BAA53BA0000D45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoneyThisWeek/MoneyThisWeek.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MoneyThisWeek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewkotila.MoneyThisWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		ADE09F771BAA5F710000D45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MoneyThisWeek Widget/MoneyThisWeek Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MoneyThisWeek Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewkotila.MoneyThisWeek.MoneyThisWeek-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADE09F781BAA5F710000D45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MoneyThisWeek Widget/MoneyThisWeek Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MoneyThisWeek Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewkotila.MoneyThisWeek.MoneyThisWeek-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE09F411BAA53BA0000D45A /* Build configuration list for PBXProject "MoneyThisWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE09F5E1BAA53BA0000D45A /* Debug */,
+				ADE09F5F1BAA53BA0000D45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE09F601BAA53BA0000D45A /* Build configuration list for PBXNativeTarget "MoneyThisWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE09F611BAA53BA0000D45A /* Debug */,
+				ADE09F621BAA53BA0000D45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE09F761BAA5F710000D45A /* Build configuration list for PBXNativeTarget "MoneyThisWeek Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE09F771BAA5F710000D45A /* Debug */,
+				ADE09F781BAA5F710000D45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADE09F3E1BAA53BA0000D45A /* Project object */;
+}
